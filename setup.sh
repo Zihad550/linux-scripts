@@ -9,4 +9,4 @@ npm i -g npm@latest
 npm install -g zx
 source ~/.bashrc
 zx -v
-zx https://raw.githubusercontent.com/foyzulkarim/linux-playbook-javascript/main/index.mjs
+zx https://raw.githubusercontent.com/Zihad550/linux-scripts/main/index.mjs

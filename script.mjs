@@ -77,7 +77,7 @@ if (shouldInstallNginx.toLowerCase() === 'y') {
 // docker 
 let shouldInstallDocker = await question('Do you want to install docker? [y/n] ');
 if (shouldInstallDocker.toLowerCase() === 'y') {
-    await $`zx https://raw.githubusercontent.com/foyzulkarim/linux-playbook-javascript/main/docker.mjs`
+    await $`zx https://raw.githubusercontent.com/Zihad550/linux-scripts/main/docker.mjs`
 } else {
     console.log('Skipping docker installation');
 }
@@ -85,7 +85,7 @@ if (shouldInstallDocker.toLowerCase() === 'y') {
 // docker-compose
 let shouldInstallDockerCompose = await question('Do you want to install docker-compose? [y/n] ');
 if (shouldInstallDockerCompose.toLowerCase() === 'y') {
-    await $`zx https://raw.githubusercontent.com/foyzulkarim/linux-playbook-javascript/main/docker-compose.mjs`
+    await $`zx https://raw.githubusercontent.com/Zihad550/linux-scripts/main/docker-compose.mjs`
 } else {
     console.log('Skipping docker-compose installation');
 }
