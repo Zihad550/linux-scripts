@@ -4,4 +4,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 sudo apt install ruby-full
 
-gem install clorls
+sudo gem install colorls
