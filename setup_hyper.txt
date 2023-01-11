@@ -1,0 +1,9 @@
+Install Plugins
+1. hyperpower
+2. hyper-search
+3. hyper-launch-menu
+4. hyper-single-instance
+5. hyper-tabs-enhanced
+
+Install themes
+1. hyper-dracula
