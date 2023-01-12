@@ -2,7 +2,7 @@
 sudo apt -y update
 sudo apt -y upgrade
 # install applications
-sudo apt -y install ubuntu-restricted-extras git vlc curl openssh-server ruby-full gnome-shell-extensions gnome-tweaks neofetch
+sudo apt -y install ubuntu-restricted-extras git vlc curl openssh-server ruby-full gnome-shell-extensions gnome-tweaks neofetch gcc g++
 # install snaps
 sudo snap install --classic code
 sudo snap install brave
