@@ -5,8 +5,10 @@ sudo apt -y upgrade
 sudo apt -y install ubuntu-restricted-extras git vlc curl openssh-server ruby-full gnome-shell-extensions gnome-tweaks neofetch gcc g++
 # install snaps
 sudo snap install --classic code
-sudo snap install brave
-sudo snap install postman
+flatpak install com.brave.Browser
+flatpak install com.getpostman.Postman
+flatpak install com.mongodb.Compass
+sudo apt -y install thunderbird
 # sudo snap install pycharm-community --classic
 # install nvm and node.js stable
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
