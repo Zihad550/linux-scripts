@@ -1,0 +1,6 @@
+1. setup zsh
+2. setup oh my zsh
+3. setup powerlevel10k
+4. setup nvm
+5. setup zsh aliases file and aliases
+6. setup gpg key
