@@ -1,0 +1,27 @@
+# npm aliases
+alias ni='npm install'
+alias nrd='npm run dev'
+alias nird='ni && nrd'
+alias nrb='npm run build'
+alias nrt='npm run type-check'
+
+# git aliases
+alias fastpush='gitpush "s"'
+gitpush() {
+    if [ -z "$1" ]; then
+        echo "Please provide a commit message."
+        return 1
+    fi
+
+    branch=$(git symbolic-ref --short HEAD 2>/dev/null)
+
+    if [ -z "$branch" ]; then
+        echo "Not on a branch."
+        return 1
+    fi
+
+    git add -A && git commit -m "$1" && git push origin "$branch"
+}
+
+# git and npm
+# alias gitPush='nrt && gitpush'
