@@ -4,3 +4,4 @@
 4. setup nvm
 5. setup zsh aliases file and aliases
 6. setup gpg key
+7. install node lts, 18, 16 versions
