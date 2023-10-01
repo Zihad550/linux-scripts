@@ -2,12 +2,12 @@
 sudo apt -y update
 sudo apt -y upgrade
 # install applications
-sudo apt -y install ubuntu-restricted-extras git vlc curl openssh-server ruby-full gnome-shell-extensions gnome-tweaks neofetch gcc g++
+sudo apt -y install ubuntu-restricted-extras btop git vlc curl openssh-server gnome-shell-extensions gnome-tweaks neofetch gcc g++
 # install snaps
-sudo snap install --classic code
-flatpak install com.brave.Browser
+# sudo snap install --classic code
+# flatpak install com.brave.Browser
 flatpak install com.getpostman.Postman
-flatpak install com.mongodb.Compass
+# flatpak install com.mongodb.Compass
 sudo apt -y install thunderbird
 # sudo snap install pycharm-community --classic
 # install nvm and node.js stable
@@ -26,8 +26,6 @@ curl -fsSL https://get.pnpm.io/install.sh | sh -
 # ohter development packages
 # nodemon
 npm install -g nodemon
-# heroku cli
-curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
 
 # customize ubuntu
 sudo apt-add-respository ppa:papirus/papirus
