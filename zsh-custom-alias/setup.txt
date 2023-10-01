@@ -1,0 +1,4 @@
+Add it to .zshrc file
+
+# Load aliases and shortcuts if existent.
+[ -f "$HOME/zsh/aliasrc" ] && source "$HOME/zsh/aliasrc"
