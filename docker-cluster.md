@@ -1,21 +1,23 @@
 # Mongodb docker cluster
 
-### create servers
+## create servers
 
-- server-1
-  ```bash
-  docker run -d --rm -p 27017:27017 --name mongo1 --network mongoCluster -v ~/docker-data/mongo1:/data/db mongo:5 mongod --replSet myReplicaSet --bind_ip localhost,mongo1
-  ```
-- server-2
+server-1
 
 ```bash
-    docker run -d --rm -p 27018:27017 --name mongo2 --network mongoCluster -v ~/docker-data/mongo2:/data/db mongo:5 mongod --replSet myReplicaSet --bind_ip localhost,mongo2
+docker run -d -p 27017:27017 --name mongo1 --network mongoCluster -v ~/docker-data/mongo1:/data/db mongo:5 mongod --replSet myReplicaSet --bind_ip localhost,mongo1
 ```
 
-- server-3
+server-2
 
 ```bash
-    docker run -d --rm -p 27019:27017 --name mongo3 --network mongoCluster -v ~/docker-data/mongo3:/data/db mongo:5 mongod --replSet myReplicaSet --bind_ip localhost,mongo3
+    docker run -d -p 27018:27017 --name mongo2 --network mongoCluster -v ~/docker-data/mongo2:/data/db mongo:5 mongod --replSet myReplicaSet --bind_ip localhost,mongo2
+```
+
+server-3
+
+```bash
+    docker run -d -p 27019:27017 --name mongo3 --network mongoCluster -v ~/docker-data/mongo3:/data/db mongo:5 mongod --replSet myReplicaSet --bind_ip localhost,mongo3
 ```
 
 ### init cluster
