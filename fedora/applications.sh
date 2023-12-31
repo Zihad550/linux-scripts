@@ -4,7 +4,7 @@ sudo dnf -y upgrade
 ## install applications
 sudo dnf -y install git vlc curl openssh-server gnome-shell-extensions gnome-tweaks neofetch gcc g++
 ## install flatpaks
-flatpak install com.brave.Browser
+#flatpak install com.brave.Browser
 flatpak install com.getpostman.Postman
 flatpak install com.mongodb.Compass
 flatpak install com.getmailspring.Mailspring
