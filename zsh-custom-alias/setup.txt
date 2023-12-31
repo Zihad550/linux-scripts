@@ -4,4 +4,4 @@ Steps:
 2. create aliasrc file and copy contents of aliasrc
 
 # Load aliases and shortcuts if existent.
-[ -f "$HOME/zsh/aliasrc" ] && source "$HOME/.zsh/aliasrc"
+[ -f "$HOME/.zsh/aliasrc" ] && source "$HOME/.zsh/aliasrc"
